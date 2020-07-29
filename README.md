@@ -1,5 +1,7 @@
 # fake-twitch-chat
 
+Hosted live on: https://sleepy-brushlands-90813.herokuapp.com/
+
 ## Project setup
 ```
 npm install
