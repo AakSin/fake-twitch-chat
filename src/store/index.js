@@ -4,7 +4,7 @@ Vue.use(Vuex);
 window.axios=require('axios')
 export default new Vuex.Store({
     state:{
-        currentStreamer:"select a streamer"
+        currentStreamer:"Select a Streamer"
     },
     mutations:{
         changeStreamer(state,name){

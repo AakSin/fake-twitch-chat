@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="row no-gutters">
-    <div class="col-9">
+    <div class="col-7 col-md-9">
       <AppHeader/>
       <ChannelGrid/>
     </div>
-    <div class="col-3 ">
+    <div class="col-5 col-md-3 ">
       <Chat/>
     </div>
   </div>
@@ -25,7 +25,10 @@ export default {
 </script>
 
 <style>
-/* .jumbotron{
-  margin-bottom:0 ;
-} */
+div{
+color:#D2CDC7;
+}
+#app{
+  background-color: #171718;
+}
 </style>
