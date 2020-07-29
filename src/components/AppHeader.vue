@@ -4,7 +4,7 @@
       <h1 class="display-2">Fake Twitch Chat</h1>
       <p
         class="lead"
-      >Welcome to Fake Twitch Chat! Click on one of these streamers below to simulate an AI-generated interaction with their chat.<br>Estimated wait time for response: 2 Minutes </p>
+      >Welcome to Fake Twitch Chat! Click on one of these streamers below to simulate an AI-generated interaction with their chat.<br>Estimated wait time for response: 3 Minutes </p>
     </div>
   </div>
 </template>
