@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="row no-gutters">
+    <div class="col-9">
+      <AppHeader/>
+      <ChannelGrid/>
+    </div>
+    <div class="col-3 ">
+      <Chat/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue'
+import ChannelGrid from './components/ChannelGrid.vue'
+import Chat from './components/Chat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    AppHeader,ChannelGrid,Chat
+  },
+  
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* .jumbotron{
+  margin-bottom:0 ;
+} */
 </style>
