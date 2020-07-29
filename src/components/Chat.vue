@@ -76,7 +76,7 @@ export default {
     },
     fetchChat() {
       axios
-        .get(this.apis[this.$store.state.currentStreamer])
+        .get(this.apis[this.$store.state.currentStreamer]+"?prefix="+this.$store.state.currentStreamer+":")
         .then((response) => {
           this.messages = this.messages.concat(response.data.text.split("\n"));
           this.message = "";
@@ -92,8 +92,7 @@ export default {
 <style scoped>
 .d-flex {
   background-color: #14141a;
-  min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   padding: 1vw;
   /* overflow-y:scroll; */

@@ -20,17 +20,17 @@ export default {
                 {
                     name:"xqc",
                     image:"https://pbs.twimg.com/profile_images/1188911868863221772/fpcyKuIW_400x400.jpg",
-                    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident ducimus dicta consequuntur. Modi consequatur illum, neque unde eum tempore?"
+                    content: "Overwatch Professional tank player and full time streamer. EZ Clap"
                 },
                 {
                     name:"HealthyGamerGG",
                     image:"https://www.healthygamer.gg/wp-content/uploads/2019/07/Untitled-design.png",
-                    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident ducimus dicta consequuntur. Modi consequatur illum, neque unde eum tempore?"
+                    content: "Dr. K is a Harvard-trained psychiatrist who covers topics around mental health via interviews and lectures."
                 },
                 {
                     name:"Hasan Piker",
                     image:"https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/hasan-piker/blob__67165_medium.webp",
-                    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident ducimus dicta consequuntur. Modi consequatur illum, neque unde eum tempore?"
+                    content: "i'm a political commentator irl trying to avoid heated gaming moments"
                 }
             ]
         }
