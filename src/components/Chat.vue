@@ -120,4 +120,9 @@ textarea:focus {
   background-color: #222527;
   width:10px;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #9147FF;
+    border-color:#9147FF;
+}
 </style>
