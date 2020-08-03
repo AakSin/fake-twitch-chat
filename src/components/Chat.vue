@@ -1,7 +1,7 @@
 /* eslint-disable no-inner-declarations */
 /* eslint-disable no-inner-declarations */
 <template>
-  <div class="d-flex flex-column">
+  <div class="d-flex p-4 p-md-3 flex-column">
     {{timeLeft}}s
     <h1 class="display-4 text-center">{{this.$store.state.currentStreamer}}</h1>
     <div class="content">
@@ -94,7 +94,6 @@ export default {
   background-color: #14141a;
   height: 100vh;
   width: 100%;
-  padding: 1vw;
   /* overflow-y:scroll; */
 }
 h1 {

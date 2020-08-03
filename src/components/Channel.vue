@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 col-md-4">
+  <div class="col-12 col-md-4 mb-4">
     <div class="card" @click="changeStreamer(streamer.name)">
       <img class="card-img-top" :src="streamer.image" alt="Card image cap" />
       <div class="card-body">
@@ -24,6 +24,7 @@ export default {
 .card {
   cursor: pointer;
   border-color:#333232 ;
+
 }
  div{
      background-color: #171718;

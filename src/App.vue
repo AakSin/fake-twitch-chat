@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="row no-gutters">
-    <div class="col-7 col-md-9">
+    <div class="col-12 col-md-8 col-lg-9">
       <AppHeader/>
       <ChannelGrid/>
     </div>
-    <div class="col-5 col-md-3 ">
+    <div class="col-12 col-md-4 col-lg-3 ">
       <Chat/>
     </div>
   </div>
