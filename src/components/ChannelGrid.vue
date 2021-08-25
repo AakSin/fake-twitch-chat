@@ -24,7 +24,7 @@ export default {
                 },
                 {
                     name:"HealthyGamerGG",
-                    image:"https://www.healthygamer.gg/wp-content/uploads/2019/07/Untitled-design.png",
+                    image:"https://i.ytimg.com/vi/Hq32ZIz1EBE/maxresdefault.jpg",
                     content: "Dr. K is a Harvard-trained psychiatrist who covers topics around mental health via interviews and lectures."
                 },
                 {
